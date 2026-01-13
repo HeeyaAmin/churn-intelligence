@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# OS
+.DS_Store
+
+# Power BI
+*.pbix
+
+# Data (keep raw data local if you want)
+# Uncomment if you do NOT want to push the dataset
+# data/*.csv
