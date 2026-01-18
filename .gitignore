@@ -15,3 +15,5 @@ __pycache__/
 # Data (keep raw data local if you want)
 # Uncomment if you do NOT want to push the dataset
 # data/*.csv
+
+artifacts/*.joblib
