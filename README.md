@@ -31,15 +31,22 @@ The solution includes:
 
 ### Dashboard Overview
 ![Dashboard Overview](screenshots/ss1.png)
+End-to-end churn intelligence dashboard showing key KPIs, risk distribution, churn rates, and customer segmentation with interactive filters.
+
 
 ### Interactive Analysis with Filters
 ![Filtered Dashboard](screenshots/ss2.png)
+Dashboard view with slicers applied (contract type, internet service, payment method) to analyze churn behavior across customer segments.
+
 
 ### Data Model & Relationships
 ![Data Model](screenshots/ss3.png)
+Star-schema style data model connecting customer features and churn predictions using a many-to-one relationship on customer_id.
+
 
 ### Measures & Calculated Metrics
 ![Measures](screenshots/ss4.png)
+Custom DAX measures for actual churn rate, predicted churn rate, average churn probability, high-risk customers, and total customers.
 
 ---
 
